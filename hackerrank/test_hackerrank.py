@@ -14,8 +14,8 @@ from fractions import Fraction
 # HackerRank.py's `if __name__ == '__main__':` block only runs when the file is
 # executed directly, not when it's imported - so importing mehtaLazy here is safe,
 # it won't try to read stdin or write to OUTPUT_PATH.
-from HackerRank import mehtaLazy
-from HackerRank import findPoint
+from hackerrank.hacker_rank import mehtaLazy
+from hackerrank.hacker_rank import findPoint
 
 
 # @pytest.mark.parametrize lets one test function run multiple times, once per
