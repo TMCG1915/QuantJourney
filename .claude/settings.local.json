@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(\"C:\\\\msys64\\\\ucrt64\\\\bin\\\\python.exe\" -m pytest --version)",
+      "Bash(echo \"---exit:$?---\")",
+      "Bash(\"C:\\\\msys64\\\\ucrt64\\\\bin\\\\python.exe\" --version)"
+    ]
+  }
+}

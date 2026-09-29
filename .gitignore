@@ -1,0 +1,15 @@
+# .gitignore - tells Git which files/folders to NEVER track or upload.
+# Each line is a pattern. A trailing "/" means "a folder with this name",
+# and "*" is a wildcard meaning "anything".
+
+# Python creates these automatically when you run or import code.
+# They're just cached bytecode - regenerated every time, so no need to store them.
+__pycache__/
+
+# pytest's cache (remembers which tests failed last run, etc.).
+# Specific to your machine, so it doesn't belong in the repo.
+.pytest_cache/
+
+# Compiled C++ programs. Keep the .cpp source code instead -
+# anyone can rebuild the .exe from it, and binaries bloat a repo.
+*.exe
