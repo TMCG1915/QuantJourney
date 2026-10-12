@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas
+matplotlib
+streamlit         # Black-Scholes dashboard
+pytest            # tests
